@@ -1,0 +1,112 @@
+{
+  "_comment": "FAKE draft stub. Not CapCut draft_content.json. Unofficial tools only.",
+  "unofficial": true,
+  "width": 1920,
+  "height": 1080,
+  "shots": [
+    {
+      "id": "shot-01",
+      "mp4": "/tmp/codybeartv-fake/shot-01.mp4",
+      "title": "FAKE: highway dusk",
+      "duration": 8
+    },
+    {
+      "id": "shot-02",
+      "mp4": "/tmp/codybeartv-fake/shot-02.mp4",
+      "title": "FAKE: push down the road",
+      "duration": 6
+    },
+    {
+      "id": "shot-03",
+      "mp4": "/tmp/codybeartv-fake/shot-03.mp4",
+      "title": "FAKE: headlights",
+      "duration": 4
+    }
+  ],
+  "intended_calls": [
+    {
+      "unofficial": true,
+      "tool": "create_draft",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "add_video",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "video_url": "/tmp/codybeartv-fake/shot-01.mp4",
+        "start": 0.0,
+        "end": 8.0,
+        "shot_id": "shot-01"
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "add_text",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "text": "FAKE: highway dusk",
+        "start": 0.0,
+        "end": 8.0,
+        "shot_id": "shot-01"
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "add_video",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "video_url": "/tmp/codybeartv-fake/shot-02.mp4",
+        "start": 8.0,
+        "end": 14.0,
+        "shot_id": "shot-02"
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "add_text",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "text": "FAKE: push down the road",
+        "start": 8.0,
+        "end": 14.0,
+        "shot_id": "shot-02"
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "add_video",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "video_url": "/tmp/codybeartv-fake/shot-03.mp4",
+        "start": 14.0,
+        "end": 18.0,
+        "shot_id": "shot-03"
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "add_text",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "text": "FAKE: headlights",
+        "start": 14.0,
+        "end": 18.0,
+        "shot_id": "shot-03"
+      }
+    },
+    {
+      "unofficial": true,
+      "tool": "save_draft",
+      "args": {
+        "draft_id": "draft_fake_001",
+        "path": "/Users/bearbot/Projects/codybeartv-pack/capcut/out/draft.json"
+      }
+    }
+  ],
+  "human_export": "Operator opens CapCut Pro later. This stub does not launch it."
+}

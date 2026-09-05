@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodyBearTV developer pack</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0e1116;
+      --card: #171c24;
+      --text: #e8edf4;
+      --muted: #9aa6b4;
+      --line: #2a3340;
+      --accent: #7cb8ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.5 ui-sans-serif, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 1.75rem; margin: 0 0 0.5rem; }
+    p, label { color: var(--muted); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin: 1.25rem 0;
+    }
+    fieldset { border: 0; padding: 0; margin: 0 0 1rem; }
+    legend { color: var(--text); font-weight: 600; margin-bottom: 0.5rem; }
+    label { display: block; margin: 0.75rem 0 0.25rem; }
+    input[type="email"], input[type="text"], input[type="url"] {
+      width: 100%;
+      padding: 0.6rem 0.7rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .tracks label { display: flex; gap: 0.5rem; align-items: center; margin: 0.4rem 0; color: var(--text); }
+    .row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+    a { color: var(--accent); }
+    button, .btn {
+      display: inline-block;
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #243044;
+      color: var(--text);
+      text-decoration: none;
+    }
+    button[disabled] {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .test { border-color: #8a6d1f; background: #3a3014; color: #f3d989; }
+    footer { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>CodyBearTV developer pack</h1>
+    <p>Grok Build tools for developers (novice through professional). Official xAI / X / Stripe first. Community CapCut and GarageBand wrappers labeled unofficial. Model: grok-4.6 — not 4.7.</p>
+
+    <form class="card" action="#" method="get" onsubmit="return false;">
+      <fieldset>
+        <legend>Signup track</legend>
+        <div class="tracks">
+          <label><input type="radio" name="track" value="developers" required checked> Developers — pack install, changelog, token rotation, connector diffs</label>
+          <label><input type="radio" name="track" value="new-to-grok"> New to Grok — official-first tutorials, Premium, Imagine limits, Build install</label>
+        </div>
+      </fieldset>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+      <label for="github">GitHub handle (optional here; required only at paid checkout later)</label>
+      <input id="github" name="github" type="text" autocomplete="username" placeholder="optional">
+      <label for="xprofile">X profile (optional — Original Content Rewards coaching later)</label>
+      <input id="xprofile" name="xprofile" type="url" placeholder="https://x.com/you">
+      <p>This form does not post. No Beehiiv / Resend / Stripe call in Phase 5.</p>
+      <div class="row">
+        <button type="submit">Save stub (not wired)</button>
+      </div>
+    </form>
+
+    <div class="card">
+      <p><a href="#placeholder-github">GitHub (placeholder)</a> · <a href="#placeholder-discord">Discord (placeholder)</a></p>
+      <p>Invites are not implemented. No Discord bot token. No GitHub PAT on this page.</p>
+      <div class="row">
+        <button type="button" class="test" disabled title="No live Payment Link">TEST MODE — Stripe checkout disabled</button>
+      </div>
+    </div>
+
+    <footer>
+      CodyBearTV · Jacó / Phoenix in the footer only · Human approval before any spend · Newsletter lists never share a send payload
+    </footer>
+  </main>
+</body>
+</html>

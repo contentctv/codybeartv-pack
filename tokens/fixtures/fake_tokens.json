@@ -1,0 +1,47 @@
+{
+  "_comment": "FAKE fixtures for Phase 2 license-check stub. Not secrets. Not Stripe keys. Do not paste into production.",
+  "tokens": [
+    {
+      "id": "trial-fake-001",
+      "type": "trial",
+      "secret": "cbtv_trial_FAKE_week_001",
+      "status": "active",
+      "issued_at": "2026-09-01T00:00:00+00:00",
+      "expires_at": "2026-09-08T00:00:00+00:00",
+      "scopes": ["docs:read", "imagine:dry-run"],
+      "list_track": null
+    },
+    {
+      "id": "news-fake-2026w36",
+      "type": "newsletter",
+      "secret": "cbtv_news_FAKE_2026w36",
+      "status": "active",
+      "issued_at": "2026-09-02T16:00:00+00:00",
+      "expires_at": "2026-09-10T16:00:00+00:00",
+      "scopes": ["docs:read", "newsletter:current"],
+      "list_track": "developers"
+    },
+    {
+      "id": "paid-fake-001",
+      "type": "stripe_entitlement",
+      "secret": "cbtv_paid_FAKE_monthly_001",
+      "status": "active",
+      "issued_at": "2026-09-01T00:00:00+00:00",
+      "expires_at": "2026-10-01T00:00:00+00:00",
+      "scopes": ["docs:read", "imagine:poller", "capcut:draft"],
+      "list_track": "developers",
+      "entitlement_id": "ent_fake_001",
+      "stripe_customer_ref": "cus_FAKE_not_a_real_customer"
+    },
+    {
+      "id": "news-fake-expired",
+      "type": "newsletter",
+      "secret": "cbtv_news_FAKE_expired",
+      "status": "rotated",
+      "issued_at": "2026-08-26T16:00:00+00:00",
+      "expires_at": "2026-09-03T16:00:00+00:00",
+      "scopes": ["docs:read", "newsletter:current"],
+      "list_track": "new_to_grok"
+    }
+  ]
+}

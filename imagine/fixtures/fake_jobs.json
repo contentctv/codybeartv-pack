@@ -1,0 +1,40 @@
+{
+  "_comment": "FAKE Imagine jobs for Phase 3 poller stub. Not API traffic. URLs are placeholders — do not download.",
+  "model": "grok-imagine-video-1.5",
+  "jobs": [
+    {
+      "id": "shot-01",
+      "mode": "generate",
+      "prompt": "FAKE: wide establishing shot, empty desert highway at dusk, 16:9",
+      "duration": 8,
+      "aspect_ratio": "16:9",
+      "resolution": "1080p",
+      "poll_ticks": ["pending", "pending", "done"]
+    },
+    {
+      "id": "shot-02",
+      "mode": "extend",
+      "from_shot": "shot-01",
+      "prompt": "FAKE: camera pushes down the highway, last-frame continuity",
+      "duration": 6,
+      "poll_ticks": ["pending", "done"]
+    },
+    {
+      "id": "shot-03",
+      "mode": "extend",
+      "from_shot": "shot-02",
+      "prompt": "FAKE: headlights bloom, still last-frame continuity",
+      "duration": 4,
+      "poll_ticks": ["pending", "failed"]
+    },
+    {
+      "id": "shot-bad-duration",
+      "mode": "generate",
+      "prompt": "FAKE: should fail local validation",
+      "duration": 20,
+      "aspect_ratio": "16:9",
+      "resolution": "1080p",
+      "poll_ticks": ["done"]
+    }
+  ]
+}

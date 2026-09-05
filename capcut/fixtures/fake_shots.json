@@ -1,0 +1,25 @@
+{
+  "_comment": "FAKE local shots for Phase 4 draft stub. Paths need not exist. Do not open CapCut. All tools unofficial.",
+  "width": 1920,
+  "height": 1080,
+  "shots": [
+    {
+      "id": "shot-01",
+      "mp4": "/tmp/codybeartv-fake/shot-01.mp4",
+      "title": "FAKE: highway dusk",
+      "duration": 8
+    },
+    {
+      "id": "shot-02",
+      "mp4": "/tmp/codybeartv-fake/shot-02.mp4",
+      "title": "FAKE: push down the road",
+      "duration": 6
+    },
+    {
+      "id": "shot-03",
+      "mp4": "/tmp/codybeartv-fake/shot-03.mp4",
+      "title": "FAKE: headlights",
+      "duration": 4
+    }
+  ]
+}
