@@ -1,0 +1,41 @@
+{
+  "_comment": "Phase 6 stub. SHA-256 of pack SKILL.md files only. No disk-wide scan. Rehash at session start; fail closed on mismatch. No plugin manifests in this repo yet.",
+  "algo": "sha256",
+  "hashed_at": "2026-09-05",
+  "scope": [".grok/skills/*/SKILL.md"],
+  "plugin_manifests": [],
+  "skills": [
+    {
+      "path": ".grok/skills/codybeartv-os/SKILL.md",
+      "sha256": "6fa68a17af31ed4b31da9dd9f5a8de79d7f921375b954592cf28a0d5e2f2d09a"
+    },
+    {
+      "path": ".grok/skills/developer-newsletter-engine/SKILL.md",
+      "sha256": "d8276814d563fe22d4b345ed1d56cdeb397f27160ebd9004bd76ed3cabfaa368"
+    },
+    {
+      "path": ".grok/skills/expert-systems-architect/SKILL.md",
+      "sha256": "250f98ef934e282bb7116e1edee296258f1649d3fef19a19663385c5c689bfa7"
+    },
+    {
+      "path": ".grok/skills/grok-stack-connectors/SKILL.md",
+      "sha256": "d1de0b2fefd082cf3aa283d322c639b190a7329ddc7ebeb4ed73cfdd1eea6525"
+    },
+    {
+      "path": ".grok/skills/official-first-research/SKILL.md",
+      "sha256": "6a225c5839ca637305cc6222c18883eb67efff3a1ae2821bcba57d230cca4b61"
+    },
+    {
+      "path": ".grok/skills/quant-research-engine/SKILL.md",
+      "sha256": "c633776402d374dd7b150a9f5e1b1963165866e2ce651b549ec59c25e655665d"
+    },
+    {
+      "path": ".grok/skills/redhat-security-gate/SKILL.md",
+      "sha256": "b0f7ad8383c455342a3a290ae5a90953f634371714395687e74f54c7acb8deef"
+    },
+    {
+      "path": ".grok/skills/wallet-markets-gate/SKILL.md",
+      "sha256": "8500fad168799d2996d544d8a44daddd547c9d26d29bd6c2f63f0f07ec917cf7"
+    }
+  ]
+}
