@@ -27,7 +27,7 @@ public commit exists. CI rejects branch/tag/abbrev SHAs.
   "source": {
     "source": "url",
     "url": "https://github.com/contentctv/codybeartv-pack.git",
-    "sha": "REPLACE_WITH_40_CHAR_LOWERCASE_COMMIT_SHA",
+    "sha": "0858cd55943875242eea093d3e3a7b778c6f1896",
     "path": ".grok/plugins/piggywiggy"
   },
   "homepage": "https://github.com/contentctv/codybeartv-pack",
