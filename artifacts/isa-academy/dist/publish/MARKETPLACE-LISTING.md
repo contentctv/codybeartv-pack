@@ -1,6 +1,9 @@
-# Official plugin marketplace listing — DRAFT, UNSUBMITTED
+# Official plugin marketplace listing — PR OPEN
 
-Status: UNPOSTED. PUBLISH=off. FIVERR_SUBMIT=off. X_POST=off.
+Status: GATE_LIFT EXECUTE_PUBLISH GROK_BOT_MARKETPLACE filed 2026-09-09.
+PR: https://github.com/xai-org/plugin-marketplace/pull/654
+Source repo set **public**. Pin SHA `a9414b1e833fc68445ef99b8f30f5346f04361e3`.
+xAI code-owner review still pending. This desk cannot merge their catalog.
 Official catalog: [github.com/xai-org/plugin-marketplace](https://github.com/xai-org/plugin-marketplace)
 Process: [CONTRIBUTING.md](https://github.com/xai-org/plugin-marketplace/blob/main/CONTRIBUTING.md)
 Docs: [Skills, Plugins & Marketplaces](https://docs.x.ai/build/features/skills-plugins-marketplaces)
