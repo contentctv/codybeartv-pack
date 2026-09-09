@@ -1,0 +1,18 @@
+{
+  "name": "piggywiggy",
+  "version": "0.1.0",
+  "description": "PiggyWiggy the Hedgefund Companion by CodyBearTV — Cipher Coast Academy education agent. Character title only. Not a hedge fund, not an investment adviser, not a broker. Teaches studio-scale liability defeasance. SOP files are byproducts of tuition. Login tokens (cca_) are credentials, not securities.",
+  "author": {
+    "name": "CodyBearTV",
+    "url": "https://github.com/contentctv"
+  },
+  "repository": "https://github.com/contentctv/codybeartv-pack",
+  "homepage": "https://github.com/contentctv/codybeartv-pack",
+  "license": "UNLICENSED",
+  "keywords": [
+    "piggywiggy",
+    "codybeartv",
+    "cipher-coast-academy",
+    "cipher coast"
+  ]
+}
