@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cabos VIP Hologram</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="title-page" class="stage hidden">
+    <video id="title-loop" playsinline loop muted autoplay poster="media/cinema-c1-austin-night.jpg">
+      <source src="media/title-loop.mp4" type="video/mp4">
+    </video>
+    <div class="title-veil"></div>
+    <header class="topbar">
+      <div>
+        <div class="brand">CYBERCAB CONNECT</div>
+        <div class="sub">CODYBEARTV GLOBAL MEDIA STUDIOS · CCAB-7X29-AUS · AUSTIN</div>
+      </div>
+      <div class="pills">
+        <span>NDA</span><span>EXECUTIVE</span><span>PAPER</span>
+      </div>
+    </header>
+    <div class="title-copy">
+      <p class="kicker">CABOS VIP</p>
+      <h1>CCAB-7X29-AUS</h1>
+      <p>CodyBearTV · Cabos VIP · Austin night. Not OEM CAD. Never official Tesla.</p>
+      <button type="button" id="enter-console">Enter hologram</button>
+    </div>
+  </section>
+
+  <section id="console" class="stage">
+    <header class="topbar">
+      <div>
+        <div class="brand">CYBERCAB CONNECT</div>
+        <div class="sub">CODYBEARTV GLOBAL MEDIA STUDIOS · CCAB-7X29-AUS · AUSTIN NIGHT</div>
+      </div>
+      <div class="pills">
+        <span>NDA</span><span>DIR-C</span><span>PAPER</span>
+        <span>91%</span><span>268 MI</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <article class="holo-col">
+        <div class="holo-meta">
+          <span>T-LINK · HOLOGRAM</span>
+          <span id="lod-badge">CINEMA LOD</span>
+        </div>
+        <div id="orbit" class="orbit">
+          <div id="plate-wrap">
+            <img id="plate" alt="Cinema LOD — Austin night, gull-wing ajar, Cabos VIP" src="media/cinema-c1-austin-night.jpg">
+            <div id="nodes"></div>
+            <div id="mesh-veil" class="hidden" aria-hidden="true">MESH LOD HELD — GPU MESH REJECTED. CINEMA STILL.</div>
+          </div>
+          <p class="gpu-note">HOLOGRAM GPU UNAVAILABLE — CINEMA STILL HELD. DRAG TO ORBIT.</p>
+        </div>
+        <p class="hint">Drag to orbit · click a node</p>
+      </article>
+
+      <article class="card">
+        <p class="kicker">CABOS VIP</p>
+        <h2>CCAB-7X29-AUS</h2>
+        <p class="lede" id="lede">Tonight Cinema LOD is locked. Rain / gull-wing stills stay on C1–C5. Mesh LOD does not load a box mesh. Not OEM CAD.</p>
+        <div class="toggles">
+          <button type="button" class="on" data-lod="cinema">Cinema LOD</button>
+          <button type="button" data-lod="mesh">Mesh LOD</button>
+          <button type="button" class="on" data-doors="ajar">Doors ajar</button>
+        </div>
+        <div class="shots" id="shots"></div>
+        <dl class="stats">
+          <div><dt>SOC</dt><dd>91.0%</dd></div>
+          <div><dt>RANGE</dt><dd>268 mi</dd></div>
+          <div><dt>CABIN</dt><dd>21.5°C</dd></div>
+          <div><dt>OCCUPANCY</dt><dd>1 adult</dd></div>
+          <div><dt>LOCALE</dt><dd>Austin night</dd></div>
+          <div><dt>DOORS</dt><dd>Gull-wing ajar</dd></div>
+        </dl>
+      </article>
+
+      <article class="card" id="inspector">
+        <p class="kicker">NODE INSPECTOR</p>
+        <h2 id="insp-title">Select a camera, pack, latch, LoRa antenna, or inductive coil on the hologram.</h2>
+        <p id="insp-body" class="lede">Paper rail only. Lightning is a placeholder. No wallet keys. No live OEM API.</p>
+        <ul id="node-list"></ul>
+      </article>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
