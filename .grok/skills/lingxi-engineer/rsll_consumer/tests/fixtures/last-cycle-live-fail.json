@@ -1,0 +1,55 @@
+{
+  "id": "rsll-1789825125",
+  "schema": "crystal-learn-card.v1",
+  "node": "BEARBOT",
+  "peer": "POEMA",
+  "mode": "dry",
+  "status": "STEP_SKIPPED_DRY",
+  "theta": "idle-gate+mesh-bring-up",
+  "source_primary": "codybeartv-pack/AGENTS.md + rsll/anchors/0001-gates.jsonl",
+  "delta_I": "mesh inventory + eight-skill hash PASS + paper PR 82 KEEP",
+  "action_taken": "dry-run cycle; no optimizer; no adapter write",
+  "outcome_if_known": "no_weight_write",
+  "sku_if_any": "CRYSTAL TIER ACADEMY / private LLM+cloud",
+  "pocket_route": "electricity-only local tokens",
+  "citation_layer": "official-first; hashes.json SHA-256 2026-09-05",
+  "promoted_to_local": false,
+  "gold_checkbox": false,
+  "kl_drift": null,
+  "kl_ceiling": 0.08,
+  "anchor_count": 1,
+  "replay_fraction": 0.15,
+  "gates": {
+    "GENERATE": "off",
+    "PUBLISH": "off",
+    "LIVE_TRAINING": false,
+    "LIVE_TRADING": true
+  },
+  "bearbot": {
+    "host": "BearBots-Mac-Studio.local",
+    "chip": "Apple M2 Max",
+    "ram_gb": 32,
+    "serve": "ollama 127.0.0.1:11434",
+    "mlx": false,
+    "loop_model": "edu-fast:latest",
+    "parked_models": [
+      "qwen3.6:35b",
+      "qwen2.5:32b",
+      "bones-survive:latest",
+      "lingxi-inspect:latest"
+    ]
+  },
+  "poema": {
+    "host": "Poemas-MacBook-Pro.local",
+    "role": "console",
+    "handoff": true,
+    "ssh_to_studio": "refused",
+    "sync": "mirrored by hand 2026-09-19"
+  },
+  "pack": {
+    "eight_skills_hash": "PASS",
+    "hashed_at": "2026-09-05",
+    "pr82": "OPEN KEEP PAPER"
+  },
+  "next_verb": "BEARBOT SMOKE | GATE_LIFT LIVE_TRAINING | park"
+}
